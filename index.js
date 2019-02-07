@@ -4,6 +4,6 @@ module.exports = () => ({
     require('babel-plugin-auto-await'),
     require('babel-plugin-closure-elimination'),
     require('babel-plugin-macros'),
-    require('babel-plugin-pipe-operato')
+    require('babel-plugin-pipe-operator'),
   ]
 })
