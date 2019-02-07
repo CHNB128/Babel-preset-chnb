@@ -1,0 +1,15 @@
+{
+  "name": "babel-preset-chnb128",
+  "version": "1.0.0",
+  "author": "Drake Aren Nelson <drake.aren@protonmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-env": "^7.3.1",
+    "babel-plugin-auto-await": "^0.3.4",
+    "babel-plugin-closure-elimination": "^1.3.0",
+    "babel-plugin-macros": "^2.4.5",
+    "babel-plugin-pipe-operator": "^1.0.0",
+    "@babel/preset-flow": "^7.0.0"
+  }
+}
