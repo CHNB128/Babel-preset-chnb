@@ -1,5 +1,8 @@
 module.exports = () => ({
-  presets: [require('@babel/preset-env'), require('@babel/preset-flow')],
+  presets: [
+    require('@babel/preset-env'),
+    require('@babel/preset-flow')
+  ],
   plugins: [
     require('babel-plugin-auto-await'),
     require('babel-plugin-implicit-return'),
