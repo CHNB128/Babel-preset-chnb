@@ -10,7 +10,7 @@
     "@babel/preset-flow": "^7.0.0",
     "babel-plugin-auto-await": "^0.3.4",
     "babel-plugin-closure-elimination": "^1.3.0",
-    "babel-plugin-implicit-return": "git+ssh://git@github.com:CHNB128/babel-plugin-implicit-return.git",
+    "babel-plugin-implicit-return": "github:CHNB128/babel-plugin-implicit-return",
     "babel-plugin-macros": "^2.4.5",
     "babel-plugin-pipe-operator": "^1.0.0"
   }
