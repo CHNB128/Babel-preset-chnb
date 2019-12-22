@@ -1,13 +1,20 @@
 module.exports = () => ({
   presets: [
-    require('@babel/preset-env'),
-    require('@babel/preset-flow')
+    'minify',
+    // '@babel/preset-flow',
+    '@babel/preset-env',
+    'stage-2',
+    'react'
   ],
   plugins: [
-    require('babel-plugin-auto-await'),
-    require('babel-plugin-implicit-return'),
-    require('babel-plugin-closure-elimination'),
-    require('babel-plugin-macros'),
-    require('babel-plugin-pipe-operator'),
+    'auto-await',
+    'implicit-return',
+    // 'closure-elimination'
+    'preval',
+    // 'macros',
+    'pipe-operator',
+    'strict-equality',
+    ['flow-runtime'],
+    'transform-decorators-legacy'
   ]
 })
